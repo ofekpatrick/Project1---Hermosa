@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='buy.css'>
+    
+</head>
+<body onload="displayInCart()">
+    <div id="container1">
+        <p<span><a href="/signin" onclick="clickToSignOut()" >Sign Out</a></span></p>
+        <p<span><a href="/">Return to Catalog</a></span></p>
+
+        <p<span><button id="clearCartButton" onclick="clearCart()">Clear Cart</button></span></p>
+
+        <!-- <div id="amountOfProducts">amount:</div> -->
+        <div id="productsDiv"></div>
+
+        <div id="totalPriceDiv">
+            <h1 id="totalPriceHeadline">Total Price:</h1>
+        </div>
+        <button id="buyButton" onclick="addInfoToDB()">Confirm Purchase</button>
+    </div>
+
+    <script src='script.js'></script>
+</body>
+</html>

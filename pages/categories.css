@@ -1,0 +1,84 @@
+#signOutContainer 
+{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+#helloNameDiv 
+{
+    position: relative;
+    width: 80px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#signOutDiv 
+{
+    position: relative;
+    width: 80px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+#helloName
+{
+    position: absolute;
+    left:25%;
+}
+
+#signOutButton
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+    width: 80px;
+}
+
+#title
+{
+    margin-left: 550px;
+}
+.categoriesNames
+{
+    background-color: bisque;
+    height: 50px;
+    width: 1040px;
+    border: 1px solid black;
+    margin-left: 90px;
+    text-align: center;
+}
+
+.circlesButtonsContainers
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 70px;
+    width: 1040px;
+    padding: 35px 20px 70px 20px;
+    margin-left: 90px;
+}
+
+.womenCircleButtonsDiv, .menCircleButtonsDiv, .kidsCircleButtonsDiv, .accessoriesCircleButtonsDiv, .homeCircleButtonsDiv
+{
+    position: relative;
+}
+.womenCircleButtons, .menCircleButtons, .kidsCircleButtons, .accessoriesCircleButtons, .homeCircleButtons
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50px;
+}

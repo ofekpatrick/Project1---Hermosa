@@ -1,0 +1,46 @@
+#container {
+    position: relative;
+    margin: 20px 0px 0px 300px;
+    width: 600px;
+    height: 50%;
+    border: 1px solid black;
+}
+
+#hello {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    margin: 0;
+}
+
+
+#amountOfProducts {
+    width: 500px;
+    margin: 30px 50px 30px 50px;
+    height: 50px;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
+#productsDiv
+{
+    width: 500px;
+    margin: 30px 50px 30px 50px;
+    height: 330px;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
+#totalPriceDiv
+{
+    width: 500px;
+    margin: 30px 50px 30px 50px;
+    height: 50px;
+    border: 1px solid red;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 20px;
+    margin-left: 5px;
+}

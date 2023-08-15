@@ -1,0 +1,92 @@
+#signOutContainer 
+{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: aquamarine;
+    margin: 0px 0px 10px 0px;
+}
+
+#helloNameDiv 
+{
+    position: relative;
+    width: 80px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#signOutDiv 
+{
+    position: relative;
+    width: 80px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+#helloName
+{
+    position: absolute;
+    left:25%;
+}
+
+#signOutButton
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+    width: 80px;
+}
+
+#productPicture
+{
+    width: 1240px;
+    height: 500px;
+    margin-top: 65px;
+    background-color: burlywood;
+}
+
+#priceAndColorsDiv
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1240px;
+}
+
+#chooseSize
+{
+    width: 1100px;
+    margin-left: 100px;
+}
+
+.inputsAndPriceDivs
+{
+    border: 1px solid black;
+    width: 180px;
+    height: 50px;
+    margin: 10px 0px 10px 0px;
+}
+
+#description
+{
+    width: 1200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px 0px 10px 30px;
+}
+
+#addToCartDiv
+{
+    width: 1240px;
+    height: 90px;
+    /* position: fixed; */
+    background-color: black;
+    border: 1px solid black;
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    
+</head>
+<body>
+    <div id="div1">
+        <nav>
+            <div id="signOutContainer">
+                <div id="helloNameDiv"><p id="helloName">hello</p></div>
+                <div id="signOutDiv"><p<span><a href="/signin" onclick="clickToSignOut()" >Sign Out</a></span></p></div>
+                <div id="checkOutLinkDiv"><a id="checkOutLink" href="/buy">Proceed to checkout</a></div>
+            </div>
+            
+            <div id="navbar">
+                <div class="categoriesDiv"><button class="categories" id="allCategoriesButton" onclick="redirectToCategoriesPage()">see allCategories</button></div>
+                <div class="categoriesDiv"><button class="categories" id="womenCategoryButton" onclick="redirectToWomenCategoryPage()">see womenCategory</button></div>
+                <div class="categoriesDiv"><button class="categories" id="menCategoryButton" onclick="redirectToMenCategoryPage()">see menCategory</button></div>
+                <div class="categoriesDiv"><button class="categories" id="kidsCategoryButton" onclick="redirectToKidsCategoryPage()">see kidsCategory</button></div>
+            </div>
+        </nav>
+        <section id="sec">
+            <div id="advertising1">advertising</div>
+
+            <div id="searchAndFilterContainer">
+                <div id="searchDiv"><input type="search" id="search" placeholder="search"></div>
+                <div id="filterDiv"><input type="text" placeholder="filter"></div>
+            </div>
+
+            <div id="productsContainer">
+                <div class="productsDivs" id="product1-2Div">
+                    <div class="products" id="product1"><div class="productText">name Of Product1<br><br> price: 300₪  <br><br> category:women </div></div>
+                    <div class="products" id="product2"><div class="productText">name Of Product2<br><br> price: 60₪ <br><br> category:kids </div></div>
+                </div>
+                <div class="productsDivs" id="product3-4Div">
+                    <div class="products" id="product3"><div class="productText">name Of product3<br><br> price: 100₪ <br><br> category:women </div></div>
+                    <div class="products" id="product4"><div class="productText"><br>name Of product4<br> price: 110₪ <br><br> category:kids </div></div>
+                </div>
+                <div class="productsDivs" id="product5-6Div">
+                    <div class="products" id="product5"><div class="productText">name Of Product5<br><br> price: 220₪ <br><br> category:men </div></div>
+                    <div class="products" id="product6"><div class="productText">name Of Product6<br><br> price: 50₪ <br><br> category:women </div></div>
+                </div>
+                <div class="productsDivs" id="product7-8Div">
+                    <div class="products" id="product7"><div class="productText">name Of Product7<br><br> price: 30₪ <br><br> category:women </div></div>
+                    <div class="products" id="product8"><div class="productText">name Of Product8<br><br> price: 600₪ <br><br> category:men </div></div>
+                </div>
+                <div class="productsDivs" id="product9-10Div">
+                    <div class="products" id="product9"><div class="productText">name Of Product9<br><br> price: 100₪ <br><br> category:women </div></div>
+                    <div class="products" id="product10"><div class="productText">name Of Product10<br><br> price: 70₪ <br><br> category:men </div></div>
+                </div>
+                <div class="productsDivs" id="product11-12Div">
+                    <div class="products" id="product11"><div class="productText">name Of Product11<br><br> price: 70₪ <br><br> category:women </div></div>
+                    <div class="products" id="product12"><div class="productText">name Of Product12<br><br> price: 100₪ <br><br> category:men </div></div>
+                </div>
+                <div class="productsDivs" id="product13-14Div">
+                    <div class="products" id="product13"><div class="productText">name Of Product13<br><br> price: 230₪ <br><br> category:women </div></div>
+                    <div class="products" id="product14"><div class="productText">name Of Product14<br><br> price: 60₪ <br><br> category:kids </div></div>
+                </div>
+                <div class="productsDivs" id="product15-16Div">
+                    <div class="products" id="product15"><div class="productText">name Of Product15<br><br> price: 180₪ <br><br> category:men </div></div>
+                    <div class="products" id="product16"><div class="productText">name Of Product16<br><br> price: 90₪ <br><br> category:kids </div></div>
+                </div>
+                <div class="productsDivs" id="product17-18Div">
+                    <div class="products" id="product17"><div class="productText">name Of Product17<br><br> price: 60₪ <br><br> category:men </div></div>
+                    <div class="products" id="product18"><div class="productText">name Of Product18<br><br> price: 500₪ <br><br> category:men </div></div>
+                </div>
+                <div class="productsDivs" id="product19-20Div">
+                    <div class="products" id="product19"><div class="productText">name Of Product19<br><br> price: 30₪ <br><br> category:women </div></div>
+                    <div class="products" id="product20"><div class="productText">name Of Product20<br><br> price: 40₪<br><br> category:women </div></div>
+                </div>
+                <div class="productsDivs" id="product21-22Div">
+                    <div class="products" id="product21"><div class="productText">name Of Product21<br><br> price: 50₪ <br><br> category:kids </div></div>
+                    <div class="products" id="product22"><div class="productText">name Of Product22<br><br> price: 400₪ <br><br> category:women </div></div>
+                </div>
+                <div class="productsDivs" id="product23-24Div">
+                    <div class="products" id="product23"><div class="productText">name Of Product23<br><br> price: 120₪ <br><br> category:men </div></div>
+                    <div class="products" id="product24"><div class="productText">name Of product24<br><br> price: 140₪ <br><br> category:women </div></div>
+                </div>
+                <div class="productsDivs" id="product25-26Div">
+                    <div class="products" id="product25"><div class="productText">name Of Product25<br><br> price: 130₪ <br><br> category:kids </div></div>
+                    <div class="products" id="product26"><div class="productText">name Of Product26<br><br> price: 100₪ <br><br> category:kids </div></div>
+                </div>
+                <div class="productsDivs" id="product7Div">
+                    <div class="products" id="product27"><div class="productText">name Of Product27<br><br> price: 999.99₪ <br><br> category:men </div></div>
+                </div>
+            </div>
+
+            <div id="buttonsContainer">
+                <div class="twoButtonsDivs">
+                    <div class="oneButtonDiv"><button class="buttons" id="button1" onclick="addToCart('product1')">add to cart =></button></div>
+                    <div class="oneButtonDiv"><button class="buttons" id="button2" onclick="addToCart('product2')">add to cart =></button></div>
+                </div>
+
+                <div class="twoButtonsDivs">
+                    <div class="oneButtonDiv"><button class="buttons" id="button3" onclick="addToCart('product3')">add to cart =></button></div>
+                    <div class="oneButtonDiv"><button class="buttons" id="button4" onclick="addToCart('product4')">add to cart =></button></div>
+                </div>
+
+                <div class="twoButtonsDivs">
+                    <div class="oneButtonDiv"><button class="buttons" id="button5" onclick="addToCart('product5')">add to cart =></button></div>
+                    <div class="oneButtonDiv"><button class="buttons" id="button6" onclick="addToCart('product6')">add to cart =></button></div>
+                </div>
+                    
+                <div class="twoButtonsDivs">
+                    <div class="oneButtonDiv"><button class="buttons" id="button7" onclick="addToCart('product7')">add to cart =></button></div>
+                    <div class="oneButtonDiv"><button class="buttons" id="button8" onclick="addToCart('product8')">add to cart =></button></div>
+                </div>
+
+                <div class="twoButtonsDivs">
+                    <div class="oneButtonDiv"><button class="buttons" id="button9" onclick="addToCart('product9')">add to cart =></button></div>
+                    <div class="oneButtonDiv"><button class="buttons" id="button10" onclick="addToCart('product10')">add to cart =></button></div>
+                </div>
+
+                <div class="twoButtonsDivs">
+                    <div class="oneButtonDiv"><button class="buttons" id="button11" onclick="addToCart('product11')">add to cart =></button></div>
+                    <div class="oneButtonDiv"><button class="buttons" id="button12" onclick="addToCart('product12')">add to cart =></button></div>
+                </div>
+
+                <div class="twoButtonsDivs">
+                    <div class="oneButtonDiv"><button class="buttons" id="button13" onclick="addToCart('product13')">add to cart =></button></div>
+                    <div class="oneButtonDiv"><button class="buttons" id="button14" onclick="addToCart('product14')">add to cart =></button></div>
+                </div>
+
+                <div class="twoButtonsDivs">
+                    <div class="oneButtonDiv"><button class="buttons" id="button15" onclick="addToCart('product15')">add to cart =></button></div>
+                    <div class="oneButtonDiv"><button class="buttons" id="button16" onclick="addToCart('product16')">add to cart =></button></div>
+                </div>
+
+                <div class="twoButtonsDivs">
+                    <div class="oneButtonDiv"><button class="buttons" id="button17" onclick="addToCart('product17')">add to cart =></button></div>
+                    <div class="oneButtonDiv"><button class="buttons" id="button18" onclick="addToCart('product18')">add to cart =></button></div>
+                </div>
+
+                <div class="twoButtonsDivs">
+                    <div class="oneButtonDiv"><button class="buttons" id="button19" onclick="addToCart('product19')">add to cart =></button></div>
+                    <div class="oneButtonDiv"><button class="buttons" id="button20" onclick="addToCart('product20')">add to cart =></button></div>
+                </div>
+
+                <di class="twoButtonsDivs">
+                    <div class="oneButtonDiv"><button class="buttons" id="button21" onclick="addToCart('product21')">add to cart =></button></div>
+                    <div class="oneButtonDiv"><button class="buttons" id="button22" onclick="addToCart('product22')">add to cart =></button></div>
+                </di >
+                    <div class="oneButtonDiv"><button class="buttons" id="button23" onclick="addToCart('product23')">add to cart =></button></div>
+                    <div class="oneButtonDiv"><button class="buttons" id="button24" onclick="addToCart('product24')">add to cart =></button></div>
+                    
+
+                <div class="twoButtonsDivs">
+                    <div class="oneButtonDiv"><button class="buttons" id="button25" onclick="addToCart('product25')">add to cart =></button></div>
+                    <div class="oneButtonDiv"><button class="buttons" id="button26" onclick="addToCart('product26')">add to cart =></button></div>
+                </div>
+
+                <div class="twoButtonsDivs">
+                    <div class="oneButtonDiv"><button class="buttons" id="button27" onclick="addToCart('product27')">add to cart =></button></div>
+                </div>
+            </div>
+
+        </section>
+        <aside>
+            <div id="advertising2">advertising</div>
+        </aside>
+    </div>
+
+    <script src='script.js'></script>
+</body>
+</html>
+

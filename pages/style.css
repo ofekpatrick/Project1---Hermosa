@@ -1,0 +1,380 @@
+#div1{
+    display: grid;
+    grid-template-columns: 16.666% 16.666% 16.666% 16.666% 16.666% 16.666%;
+    grid-template-rows: 180px 420px 200px 420px 5300px;
+    grid-template-areas: "nav nav nav nav nav nav"
+                        "section section section section section aside"
+                        "section section section section section aside"
+                        "section section section section section aside"
+                        "section section section section section aside";
+    gap: 3px;
+}
+
+nav{
+    grid-area: nav;
+    background-color:coral;
+    position: relative;
+}
+section{
+    grid-area: section;
+    background-color: rosybrown;
+}
+
+aside{
+    grid-area: aside;
+    background-color:hotpink;
+}
+
+#signOutContainer 
+{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+#helloNameDiv 
+{
+    position: relative;
+    width: 80px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#signOutDiv 
+{
+    position: relative;
+    width: 80px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+#helloName
+{
+    position: absolute;
+    left:25%;
+}
+
+#signOutButton
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+    width: 80px;
+}
+
+#navbar
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 2px solid black;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top:70px;
+}
+
+.categories
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    height: 60px;
+
+}
+
+#sec
+{
+    position: relative;
+}
+
+.categoriesDiv
+{
+    position: relative;
+    top: 5px;
+    width: 200px;
+    height: 100px;
+}
+
+#advertising1
+{
+    width: 1050px;
+    height: 280px;
+    background-color: bisque;
+}
+
+#searchAndFilterContainer
+{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    padding: 10px;
+}
+
+#productsContainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.products
+{
+    width: 420px;
+    height: 390px;
+    padding: 10px;
+    background-color: cadetblue;
+}
+
+.productsDivs
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    width: 1050px;
+}
+
+#advertising2
+{
+    position: fixed;
+}
+
+#product1
+{
+    background-image: url("sportShoesWomen.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#product2
+{
+    background-image: url("3in60\ pants\ kids.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#product3
+{
+    background-image: url("4in100\ shirt\ kids.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#product4
+{
+    background-image: url("allstar.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#product5
+{
+    background-image: url("barmuda\ pants\ men.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#product6
+{
+    background-image: url("black\ pants\ women.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#product7
+{
+    background-image: url("black\ shirt.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#product8
+{
+    background-image: url("elegant\ shoes\ men.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#product9
+{
+    background-image: url("green\ pants\ women.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#product10
+{
+    background-image: url("green\ shirt\ men.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#product11
+{
+    background-image: url("green\ shirt\ women.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#product12
+{
+    background-image: url("hawaii\ shirt.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#product13
+{
+    background-image: url("heels\ shoes\ women.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#product14
+{
+    background-image: url("jeans\ pants\ kids.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#product15
+{
+    background-image: url("jeans\ pants\ men.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#product16
+{
+    background-image: url("kishkush\ shirt\ kids.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#product17
+{
+    background-image: url("los\ angeles\ shirt\ men.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#product18
+{
+    background-image: url("pkakim\ sport\ shoes\ men.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#product19
+{
+    background-image: url("short\ pants\ kids.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#product20
+{
+    background-image: url("stripes\ shirt\ women.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#product21
+{
+    background-image: url("summer\ shirt\ kids.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#product22
+{
+    background-image: url("teva\ naot\ shoes\ women.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#product23
+{
+    background-image: url("white\ pants\ men.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#product24
+{
+    background-image: url("white\ pants\ women.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#product25
+{
+    background-image: url("white\ sandals\ kids.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#product26
+{
+    background-image: url("white\ shoes\ kids.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#product27
+{
+    background-image: url("white\ shoes\ men.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.productText
+{
+    width: 140px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid black;
+}
+
+
+#buttonsContainer
+{
+    display: flex;
+    justify-content: space-between;
+    height: 5650px;
+    width: 800px;
+    position: absolute;
+    flex-wrap: wrap;
+    border:1px solid black;
+    top:680px;
+    left:210px;
+
+}
+
+.twoButtonsDivs
+{
+    display: flex;
+    justify-content: space-around;
+    /* padding: 10px; */
+    width: 900px;
+}
+
+.oneButtonDiv
+{
+    width: 60px;
+    height: 60px;
+    /* padding: 10px; */
+    background-color:blueviolet;
+    border: 1px solid black;
+}
+
+
+
